@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {FunctionTester} se encarga de realizar tareas específicas.
+ * @fileoverview    {FunctionTester}
  *
  * @version         2.0
  *

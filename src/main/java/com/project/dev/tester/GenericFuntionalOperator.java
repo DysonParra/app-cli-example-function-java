@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {GenericFuntionalOperator} se encarga de realizar tareas específicas.
+ * @fileoverview    {GenericFuntionalOperator}
  *
  * @version         2.0
  *
