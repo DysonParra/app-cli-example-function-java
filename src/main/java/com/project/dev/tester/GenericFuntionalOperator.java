@@ -15,7 +15,7 @@
 package com.project.dev.tester;
 
 /**
- * TODO: Definición de {@code GenericFuntionalOperator}.
+ * TODO: Description of {@code GenericFuntionalOperator}.
  *
  * @author Dyson Parra
  * @since 11
@@ -24,7 +24,7 @@ package com.project.dev.tester;
 public interface GenericFuntionalOperator {
 
     /**
-     * TODO: Definición de {@code calcular}.
+     * TODO: Description of {@code calcular}.
      *
      * @param n1
      * @param n2

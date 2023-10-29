@@ -20,7 +20,7 @@ import java.util.function.BiFunction;
 import java.util.function.Function;
 
 /**
- * TODO: Definición de {@code FunctionTester}.
+ * TODO: Description of {@code FunctionTester}.
  *
  * @author Dyson Parra
  * @since 11
@@ -68,7 +68,7 @@ public class FunctionTester {
     }
 
     /**
-     * TODO: Definición de {@code concat}.
+     * TODO: Description of {@code concat}.
      *
      * @param word1
      * @param word2
@@ -80,7 +80,7 @@ public class FunctionTester {
     }
 
     /**
-     * TODO: Definición de {@code multiply}.
+     * TODO: Description of {@code multiply}.
      *
      * @param word
      * @return
@@ -90,7 +90,7 @@ public class FunctionTester {
     }
 
     /**
-     * TODO: Definición de {@code sum}.
+     * TODO: Description of {@code sum}.
      *
      * @param word
      * @return
