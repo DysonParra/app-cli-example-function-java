@@ -23,7 +23,7 @@ import java.util.function.Function;
  * TODO: Definición de {@code FunctionTester}.
  *
  * @author Dyson Parra
- * @since 1.8
+ * @since 11
  */
 public class FunctionTester {
 
