@@ -18,7 +18,7 @@ package com.project.dev.tester;
  * TODO: Description of {@code GenericFuntionalOperator}.
  *
  * @author Dyson Parra
- * @since 11
+ * @since Java 17 (LTS), Gradle 7.3
  */
 @FunctionalInterface
 public interface GenericFuntionalOperator {

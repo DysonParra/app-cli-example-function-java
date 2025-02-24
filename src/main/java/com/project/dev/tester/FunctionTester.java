@@ -23,7 +23,7 @@ import java.util.function.Function;
  * TODO: Description of {@code FunctionTester}.
  *
  * @author Dyson Parra
- * @since 11
+ * @since Java 17 (LTS), Gradle 7.3
  */
 public class FunctionTester {
 
