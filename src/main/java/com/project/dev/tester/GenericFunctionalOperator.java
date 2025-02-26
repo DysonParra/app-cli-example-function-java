@@ -24,7 +24,7 @@ package com.project.dev.tester;
 public interface GenericFunctionalOperator {
 
     /**
-     * TODO: Description of {@code calcular}.
+     * TODO: Description of method {@code calcular}.
      *
      * @param n1
      * @param n2

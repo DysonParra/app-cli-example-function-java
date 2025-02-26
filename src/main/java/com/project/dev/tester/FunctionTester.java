@@ -68,7 +68,7 @@ public class FunctionTester {
     }
 
     /**
-     * TODO: Description of {@code concat}.
+     * TODO: Description of method {@code concat}.
      *
      * @param word1
      * @param word2
@@ -80,7 +80,7 @@ public class FunctionTester {
     }
 
     /**
-     * TODO: Description of {@code multiply}.
+     * TODO: Description of method {@code multiply}.
      *
      * @param word
      * @return
@@ -90,7 +90,7 @@ public class FunctionTester {
     }
 
     /**
-     * TODO: Description of {@code sum}.
+     * TODO: Description of method {@code sum}.
      *
      * @param word
      * @return 
