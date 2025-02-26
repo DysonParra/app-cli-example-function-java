@@ -33,7 +33,7 @@ public class FunctionTester {
      * @param args argumentos de la linea de comandos.
      */
     public static void main(String[] args) {
-        GenericFuntionalOperator op = (n1, n2) -> {
+        GenericFunctionalOperator op = (n1, n2) -> {
             return n1 + n2;
         };
         System.out.println("Ref Interface created with Lamba: " + op.calcular(3, 4));
@@ -93,7 +93,7 @@ public class FunctionTester {
      * TODO: Description of {@code sum}.
      *
      * @param word
-     * @return
+     * @return 
      */
     public static int sum(String word) {
         return 10 + word.length();

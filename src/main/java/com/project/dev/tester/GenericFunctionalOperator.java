@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {GenericFuntionalOperator}
+ * @fileoverview    {GenericFunctionalOperator}
  *
  * @version         2.0
  *
@@ -15,13 +15,13 @@
 package com.project.dev.tester;
 
 /**
- * TODO: Description of {@code GenericFuntionalOperator}.
+ * TODO: Description of {@code GenericFunctionalOperator}.
  *
  * @author Dyson Parra
  * @since Java 17 (LTS), Gradle 7.3
  */
 @FunctionalInterface
-public interface GenericFuntionalOperator {
+public interface GenericFunctionalOperator {
 
     /**
      * TODO: Description of {@code calcular}.
