@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {FunctionTester}
+ * @fileoverview    {AppTester}
  *
  * @version         2.0
  *
@@ -20,19 +20,20 @@ import java.util.function.BiFunction;
 import java.util.function.Function;
 
 /**
- * TODO: Description of {@code FunctionTester}.
+ * TODO: Description of {@code AppTester}.
  *
  * @author Dyson Parra
  * @since Java 17 (LTS), Gradle 7.3
  */
-public class FunctionTester {
+public class AppTester {
 
     /**
-     * Entrada principal del sistema.
+     * Ejecuta las pruebas de la aplicación.
      *
      * @param args argumentos de la linea de comandos.
+     * @return {@code true} si se ejecutan las pruebas correctamente, {@code false} caso contrario.
      */
-    public static void main(String[] args) {
+    public static boolean startTesting(String[] args) {
         GenericFunctionalOperator op = (n1, n2) -> {
             return n1 + n2;
         };
@@ -41,12 +42,12 @@ public class FunctionTester {
         BiFunction<Double, Double, Double> refObject = op::calcular;
         System.out.println("Ref object method: " + refObject.apply(3d, 4d));
 
-        Function<String, Integer> myFunct = FunctionTester::multiply;
+        Function<String, Integer> myFunct = AppTester::multiply;
         System.out.println("Ref static method: " + myFunct.apply("word"));
 
         Map<String, Function<String, Integer>> myFuntMap = new HashMap<>();
         myFuntMap.put("*", myFunct);
-        myFuntMap.put("+", FunctionTester::sum);
+        myFuntMap.put("+", AppTester::sum);
         myFuntMap.put("-", new Function<String, Integer>() {
             @Override
             public Integer apply(String word) {
@@ -62,9 +63,10 @@ public class FunctionTester {
         System.out.println("Map Ref new function lambda method: " + myFuntMap.get("/").apply("1234567890"));
         System.out.println("Map Ref constructor: " + myFuntMap.get("Integer").apply("120"));
 
-        BiFunction<String, String, Integer> myByFunct = FunctionTester::concat;
+        BiFunction<String, String, Integer> myByFunct = AppTester::concat;
         System.out.println("Ref BiFuntion static method: " + myByFunct.apply("123", "123"));
 
+        return true;
     }
 
     /**

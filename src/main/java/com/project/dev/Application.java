@@ -14,7 +14,9 @@
  */
 package com.project.dev;
 
-import com.project.dev.tester.FunctionTester;
+import com.project.dev.tester.AppTester;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 /**
  * TODO: Description of {@code Application}.
@@ -24,13 +26,17 @@ import com.project.dev.tester.FunctionTester;
  */
 public class Application {
 
+    private static final SimpleDateFormat DATE_FORMAT = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+
     /**
      * Entrada principal del sistema.
      *
      * @param args argumentos de la linea de comandos.
      */
     public static void main(String[] args) {
-        FunctionTester.main(args);
+        System.out.printf("\nStart date: %s\n\n", DATE_FORMAT.format(new Date()));
+        System.out.printf("\nResult: %s\n", AppTester.startTesting(args));
+        System.out.printf("\nEnd date:   %s\n", DATE_FORMAT.format(new Date()));
     }
 
 }
