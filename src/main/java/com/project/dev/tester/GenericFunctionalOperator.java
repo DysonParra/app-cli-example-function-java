@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {GenericFunctionalOperator}
+ * @overview        {GenericFunctionalOperator}
  *
  * @version         2.0
  *
